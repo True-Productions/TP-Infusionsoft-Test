@@ -1,14 +1,14 @@
 # True Productions Infusionsoft Test
 
-## Build a simple API that takes data from a POST request and inserts it into a CRM
+## Build a simple page and API that takes data from a POST request and inserts it into a CRM
 
-Thank you for your interest in employment at True Productions! We want you to demonstrate your proficiency
-in PHP by writing an application that mirrors many of the tasks that you will be requested to perform 
-for True Productions. Namely, you are to write a basic end-to-end application that presents a user
-with a text input box, takes the submitted data, passes it to Infusionsoft (a CRM) and saves it
-into a contact's contact record.
+Thank you for your interest in employment at True Productions! We want you to demonstrate your proficiency in PHP & JavaScript by writing an application that mirrors many of the tasks that you will be requested to perform for True Productions. Namely, you are to write a basic end-to-end application that:
 
-Below are the basic specifications:
+* Presents a user with a web page that contains a text input box and button
+* Allows the user to submit data to an API
+* and Passes the submitted data to Infusionsoft (a CRM) and saves it into a contact's contact record.
+
+Below are the basic specifications of the project:
 
 1. Design a PHP class that creates an Infusionsoft SDK object, stores it and allows any method to use this object.
 2. Design a method in this class that takes data and stores it into a contact record's custom field.
@@ -23,12 +23,10 @@ Below are the basic specifications:
 Below is what is provided:
 
 * index.html
-  * This page includes a basic input field and button, plus an empty div where messages should reside. Please use
-  this barebones template for all customer facing HTML and JavaScript.
+  * This page includes a basic input field and button, plus an empty div where messages should reside. Please use this barebones template for all customer facing HTML and JavaScript.
 
 * api/Infusionsoft
-  * The Infusionsoft SDK (iSDK). The SDK shouldn't be modified, except for inclusion of the Infusionsoft App
-  title and encrypted key.
+  * The Infusionsoft SDK (iSDK). The SDK shouldn't be modified, except for inclusion of the Infusionsoft App title and encrypted key.
 
 * api/classes/infusionsoft_test_class.php
     * This is the class that you need to extend to handle all usage of the Infusionsoft SDK. This class must create and maintain an Infusionsoft SDK object and utilize a method to send data to Infusionsoft via the object.
@@ -38,7 +36,7 @@ Below is what is provided:
 
 Documentation:
 
-We recommend you use [Infuionsoft's Developer documentation (https://developer.infusionsoft.com/docs/xml-rpc/)](https://developer.infusionsoft.com/docs/xml-rpc/) to learn how to use the SDK. All code examples are listed under PHP iSDK.
+We recommend you use [Infuionsoft's Developer documentation (https://developer.infusionsoft.com/docs/xml-rpc/)](https://developer.infusionsoft.com/docs/xml-rpc/) to learn how to use the SDK. All code examples are listed under PHP iSDK. We also recommend that you read the readme within the Infusionsoft folder.
 
 You will be provided the following information on the onset of the test:
 
@@ -47,3 +45,5 @@ You will be provided the following information on the onset of the test:
 * The Contact ID
 
 The application name and API key are to be placed into the file at /api/infusionsoft/conn.cfg.php to connect correctly and the Contact ID is the ID where data will be stored.
+
+Good luck!
