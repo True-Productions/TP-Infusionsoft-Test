@@ -5,6 +5,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/photos/api/infusionsoft/isdk.php');
 
 class InfusionsoftTest {
 
+    // An instance of the app object
     protected $app;
 
     public function __construct(){

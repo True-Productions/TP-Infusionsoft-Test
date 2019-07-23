@@ -10,12 +10,12 @@ Thank you for your interest in employment at True Productions! We want you to de
 
 Below are the basic specifications of the project:
 
-1. Design a PHP class that creates an Infusionsoft SDK object, stores it and allows any method to use this object.
+1. Design a PHP class named InfusionsoftTest that creates an Infusionsoft SDK object, stores it and allows any method to use this object.
 2. Design a method in this class that takes data and stores it into a contact record's custom field.
-3. Design a REST end point that received POST data and does the following:
+3. Design a REST end point that receives POST data and does the following:
    * Validates the POSTed data  
-   * Creates an instance of above class
-   * Uses the class to send the data to Infusionsoft
+   * Creates an instance of the InfusionsoftTest class
+   * Uses the InfusionsoftTest class to send the data to Infusionsoft
    * Returns data in JSON format that indicates success or failure
 4. Design a web page that sends an AJAX POST request to a REST end point (Doesn't matter if you use jQuery, Axios,  Fetch API, raw XHR, Axios, etc. It simply needs to work).
 5. On response from the AJAX POST, display a success or error message.
