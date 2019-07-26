@@ -1,7 +1,7 @@
 <?php
 
 // Use the Infusionsoft SDK
-require_once($_SERVER['DOCUMENT_ROOT'].'/photos/api/infusionsoft/isdk.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/api/infusionsoft/isdk.php');
 
 class InfusionsoftTest {
 
